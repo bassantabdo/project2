@@ -1,0 +1,425 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    height:1500px;
+    background-color: rgb(250, 247, 247);
+ }
+ .father
+ {
+    position: relative;
+ }
+.header
+{
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+    background-color:white
+     
+}
+
+.logo
+{
+    
+    width: 130px;
+    height: 45px;
+    margin-top: 25px;
+   margin-left: 130px;
+   
+}
+
+ul
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'PT Sans', sans-serif;
+    margin-right:23%;
+    margin-top: 40px;
+    float: right;
+    list-style: none;
+}
+.father .item
+{
+    display: inline-block;
+    margin-right: 20;
+    color:rgb(88, 74, 55);
+    font-size: 20px;
+    
+}
+.div-img1
+{
+    width: 100%;
+    height: 100vh;
+   
+}
+.img1
+{
+    width:900px;
+    height: 430px;
+    margin-top: 10%;
+    margin-left: 13%;
+}
+.fa-solid.fa-magnifying-glass
+{
+    font-size: 25px;
+     position: absolute;
+    left: 80%;
+    top: 40px;
+}
+.fa-solid.fa-user-large
+{
+    font-size: 25px;
+     position: absolute;
+    left: 84%;
+    top: 40px; 
+}
+.fa-solid.fa-cart-plus
+{
+    font-size: 25px;
+     position: absolute;
+    left: 88%;
+    top: 40px; 
+}
+.special-cate
+{
+    width: 100%;
+    height:175vh;
+   background-color: rgb(250, 247, 247);
+   display: flex;
+  flex-direction: row;
+ justify-content: space-around;
+ flex-flow: wrap;
+}
+h1
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+   margin-top: 40px;
+}
+.aa
+{
+    width: 80px;
+    height: 2px;
+    background-color: rgb(62, 43, 43);
+    margin-top: 83px;
+    position: absolute;
+}
+.div1
+{
+    width: 250px;
+    height:360px;
+   
+   margin-top: 10%;
+   margin-bottom: 3%;
+}
+
+.div2
+{
+    width:250px;
+    height: 360px;
+    
+    margin-top: 10%;
+}
+.div3
+{
+    width: 250px;
+    height: 360px;
+    
+    margin-top: 10%;
+  
+}
+.div4
+{
+    width: 250px;
+    height: 360px;
+ 
+    margin-top: 10%;
+}
+.img-div1
+{
+    width: 100%;
+    height: 80%;
+}
+.text
+{
+    padding-top: 10%;
+}
+.text2
+{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+   
+    
+}
+.div5
+{
+     flex-basis:600px;
+    height: 320px;
+    
+    background: rgb(235, 230, 222);
+}
+.fa-solid.fa-quote-left
+{
+    color: rgb(114, 47, 47);
+    font-size: 45px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 3%;
+}
+.div6
+{
+    width: 240px;
+    height: 320px;
+    
+    background-image: url(./cms-banner-1.jpg);
+    background-size: cover;
+}
+.div7
+{
+    width: 240px;
+    height: 320px;
+    
+    background-image: url(./cms-banner-2.jpg);
+    background-size: cover;
+}
+
+.text3
+{
+  padding-top: 5px;
+  padding-left: 10px;
+    
+}
+.text4
+{
+    font-size: 30px;
+   padding-top: 13px;
+    padding-left: 65px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'PT Sans', sans-serif;
+}
+.text5
+{
+    padding-left: 65px;
+}
+.text6
+{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+}
+.div8
+{
+    width: 210px;
+    height: 150px;
+   
+   
+   border-color: black;
+}
+.div9
+{
+    width: 210px;
+    height: 150px;
+  
+    
+}
+.div10
+{
+    width: 210px;
+    height: 150px;
+  
+}
+.div11
+{
+    width: 210px;
+    height: 150px;
+}
+.div12
+{
+    width: 210px;
+    height: 150px;
+   
+    
+}
+
+.text7
+{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+  padding-top: 100px;
+}
+.text8
+{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+  padding-top: 0px;
+}
+.fa-solid.fa-ship
+{
+    font-size: 45px;
+    position: absolute;
+    left: 8%;
+    margin-top: 40px;
+    color: black;
+}
+.fa-solid.fa-motorcycle
+{
+    font-size: 45px;
+    position: absolute;
+    left: 28%;
+    margin-top: 40px;
+    color: black;
+}
+.fa-solid.fa-headset
+{
+    font-size: 45px;
+    position: absolute;
+    left: 48%;
+    margin-top: 40px;
+    color: black;
+}
+.fa-solid.fa-award
+{
+    font-size: 45px;
+    position: absolute;
+    left: 68%;
+    margin-top: 40px;
+    color: black;
+}
+.fa-solid.fa-arrow-rotate-left
+{
+    font-size: 45px;
+    position: absolute;
+    left: 88%;
+    margin-top: 40px;
+    color: black;
+}
+.div13
+{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(101, 101, 101);
+    position: absolute;
+    margin-top: 87%;
+}
+.featured
+{
+    width: 100%;
+    height: 150vh;
+   
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   flex-flow: wrap;
+
+}
+.ul2
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'PT Sans', sans-serif;
+    list-style: none;
+    margin-top: 110px;
+    margin-left: 300px;
+   position: absolute;
+   
+}
+.featured .item
+{
+    display: inline-block;
+    margin-right: 10;
+    color:rgb(33, 33, 32);
+    font-size: 17px;
+}
+.div14
+{
+    width: 240px;
+   height: 330px;
+   margin-top: 14%;
+   margin-left: 20%;
+   
+}
+.div15
+{
+    width: 240px;
+   height: 330px;
+   margin-top: 14%;
+  
+}
+.div16
+{
+    width: 240px;
+    height: 330px;
+    margin-top: 14%;
+    margin-right: 180px;
+}
+.div17
+{
+    width: 240px;
+   height: 330px;
+  margin-left: 240px;
+  
+}
+.div18
+{
+    width: 240px;
+   height: 330px;
+   margin-left: 10px;
+}
+.div19
+{
+    width: 240px;
+    height: 330px;
+    margin-right: 180px;
+    
+}
+
+.img-div16
+{
+    width: 100%;
+    height: 80%;
+}
+.fa-solid.fa-star
+{
+   margin-top: 10px;
+   color: yellow;
+    
+}
+.text10
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    position: absolute;
+}
+.fa-solid.fa-dollar-sign
+{
+    font-size: 15px;
+   position: absolute;
+   margin-top: 50px;
+  margin-right: 60px;
+}
